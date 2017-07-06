@@ -1,0 +1,12 @@
+.commend {
+  width: 100%;
+  height: 20rem;
+  background: #f00;
+
+  &__item {
+    display: block;
+    width: 100%;
+    height: 2rem;
+    background: #000;
+  }
+}

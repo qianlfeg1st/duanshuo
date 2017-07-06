@@ -1,0 +1,27 @@
+* {
+  // 清空内边距
+  padding: 0;
+  // 清空外边距
+  margin: 0;
+}
+
+html {
+  // 去掉 Safari 中长按的那个灰色蒙版
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+body {
+  // 默认字体大小
+  font-size: .6rem;
+  // 隐藏横向滚动条
+  overflow-x: hidden;
+  // 禁止选中文本，禁止复制文本
+  -webkit-user-select: none;
+  user-select: none;
+  scroll-behavior: smooth;
+}
+
+a {
+  // 隐藏下划线
+  text-decoration: none;
+}
